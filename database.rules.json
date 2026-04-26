@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "telemetry": {
+      "$deviceId": {
+        ".read":  "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}

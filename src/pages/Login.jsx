@@ -51,10 +51,7 @@ export default function Login() {
           <Link to="/signup" style={{ color:"var(--primary)", fontWeight:600, textDecoration:"none" }}>Create one</Link>
         </p>
 
-        <div style={{ marginTop:32, padding:"12px 14px", background:"rgba(47,47,228,0.06)", border:"1px solid var(--border)", borderRadius:10, fontSize:12, color:"var(--muted)", lineHeight:1.7 }}>
-          <strong style={{ color:"var(--subtle)" }}>Setup:</strong> Add your Firebase config to{" "}
-          <code style={{ color:"var(--purple)", fontSize:11 }}>src/services/firebase.js</code> then sign up.
-        </div>
+        
       </div>
     </div>
   );
